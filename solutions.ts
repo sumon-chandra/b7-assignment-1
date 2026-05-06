@@ -61,20 +61,3 @@ function filterEvenNumbers(numbers: number[]): number[] {
    const set = new Set(arr2);
    return arr1.filter((n) => set.has(n));
  }
-
-// Test
-
-const problem1 = filterEvenNumbers([1,2,3,4,5,6])
-const problem2 = reverseString("hello")
-const problem3 = checkType("hello")
-const problem4 = getProperty({name: "John", age: 30}, "name")
-const problem5 = toggleReadStatus({title: "The Great Gatsby", author: "F. Scott Fitzgerald", publishedYear: 1925})
-const problem6 = new Student("John", 30, "A")
-const problem7 = getIntersection([1,2,3,4,5], [3,4,5,6,7])
-// console.log(problem1)
-// console.log(problem2)
-// console.log(problem3)
-// console.log(problem4)
-// console.log(problem5)
-// console.log(problem6.getDetails())
-// console.log(problem7)
